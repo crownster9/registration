@@ -1,0 +1,102 @@
+﻿
+body {place-items:left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    overflow: hidden;
+    background-color: white;
+}
+#section {
+    width: 800px;
+    height: 600px;
+    display: grid;
+    place-items:left;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.5;
+    position:relative;
+}
+.form2 {
+    padding: 1em 0 28em 50em;
+    max-width:400px;
+    position:absolute;
+}
+#navbar {
+    display:flex;
+    justify-content:end;
+    align-items:end;
+    background-color:darkblue;
+    text-overflow:ellipsis;
+    max-width:1200px;
+    height:40px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+a{
+    padding:10px;
+    color:white;
+    text-underline-offset:50px;
+    line-height:1.6em;
+    width:37px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+label{
+    display:block;
+}
+div {
+    line-height: 2em;
+    position:relative;
+}
+
+.name, .names, .phone, .email, .pass {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+}
+    button{
+    background-color:darkblue;
+    color:white;
+    display:grid;
+    margin:auto;
+    width:100px;
+    height:30px;
+    line-height:2em;
+}
+button:hover{
+    background-color:darkgray;
+}
+
+.icon{
+    position:absolute;
+    left:240px;
+    right:0;
+    width:50px;
+    height:100%;
+    cursor:pointer;
+    border:none;
+
+}
+.icons{
+    position: absolute;
+    top:30px;
+    left: 235px;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border: none;
+}
+.error{
+    color:white;
+    background:red;
+    padding:5px;
+    margin:5px;
+}
+invalid{
+    border: 1px solid red;
+}
+.hidden{
+   display:none;
+}
+
+
